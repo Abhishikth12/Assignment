@@ -1,0 +1,68 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  /* Left Sidebar Styles */
+  .sidebar {
+    width: 15%; /* Adjust the width according to your design */
+    background-color: #0b1360;
+    color: white;
+    padding: 20px;
+    position: fixed; /* Fix the left sidebar */
+    left: 0; /* Position it from the left side of the viewport */
+    top: 0; /* Position it from the top of the viewport */
+    height: 100vh; /* Make it cover the full height of the viewport */
+  }
+  
+  /* Right Side Styles */
+  .right-side {
+    flex: 1; /* Occupy remaining space */
+    padding: 10px;
+    background-color: #ecf0f1; /* Example background color */
+    margin-left: 9%; /* Adjust margin to avoid content overlapping with the fixed sidebar */
+  }
+  
+  .dashboard h2 {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 0%;
+  }
+  
+  .dashboard-menu li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dashboard-menu li i {
+    margin-right: 10px;
+  }
+  
+  .dashboard-menu li i:last-child {
+    margin-right: 0;
+    margin-left: auto;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .dashboard {
+      width: 100%;
+    }
+    .sidebar {
+      display: none; /* Hide sidebar on small screens */
+    }
+    .right-side {
+      margin-left: 0; /* Reset margin for small screens */
+    }
+  }
+  
+  

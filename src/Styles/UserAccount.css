@@ -1,0 +1,27 @@
+/* UserAccount.css */
+.user-account {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+    background-color: #213065;
+    color: white;
+  }
+  
+  .user-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+  }
+  

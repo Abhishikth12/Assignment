@@ -1,0 +1,51 @@
+/* GreetingSection.css */
+.greeting-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.greeting {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.search-box input {
+    padding: 10px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.search-box i.material-icons {
+    margin: 0 10px;
+    color: #888;
+    background-color: white;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .greeting-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .greeting {
+        margin-bottom: 10px;
+    }
+
+    .search-box {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

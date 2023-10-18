@@ -1,0 +1,60 @@
+/* ThirdSection.css */
+.chart-container {
+    width: 120%;
+    height: 40vh !important; /* Set the desired height for the chart */
+    padding: 20px;
+  }
+  .third-section {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+  }
+  
+  .box1 {
+    flex: 70%;
+    margin-right: 10px;
+    height: 100%;
+    background-color: white;
+    /* padding: 30px;  */
+  }
+  
+  .box2-container {
+    flex: 30%;
+    height: 100%;
+    background-color: white;
+    padding: 14px;
+  }
+  
+.circle {
+    width: 4cm;
+    height: 4cm;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    background: conic-gradient(
+      from 0deg,
+      red 20%,
+      blue 20% 75%,
+      lightblue 75%
+    );
+  }
+  
+  .inner-circle {
+    width: 3cm;
+    height: 3cm;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  
+  
+
+  
